@@ -10,8 +10,7 @@ EasyMIDIController
 Channel=0のみを取得する。
 
 
-# 使い方:
-- - -
+# 使い方
 <pre><code>
 EasyMIDIController* midi = new EasyMIDIController();
 //--
@@ -20,9 +19,8 @@ float note = midi->GetNoteParam(i);
 //--
 delete midi;
 </code></pre>
-- - -   
 
 # License:
--- This software is public domain.
+- This software is public domain.
 
  
