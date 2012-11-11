@@ -9,10 +9,15 @@ Channel=0のみを取得する。
 
 Usage:
    EasyMIDIController* midi = new EasyMIDIController();
+  
    ~~
+   
    midi->GetControlParam(i);
+   
    m_midi->GetNoteParam(i);
+   
    ~~
+   
    delete midi;
    
  
