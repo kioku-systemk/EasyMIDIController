@@ -89,7 +89,7 @@ void EasyMIDIController::closeMIDI()
 float EasyMIDIController::GetControlParam(int i)
 {
     if (0 <= i && i < 128)
-        return m_ctrlbuf[i] / 128.0f;
+        return m_ctrlbuf[i] / 127.0f;
     else
         return 0.0f;
 }
@@ -97,7 +97,7 @@ float EasyMIDIController::GetControlParam(int i)
 float EasyMIDIController::GetNoteParam(int i)
 {
     if (0 <= i && i < 128)
-        return m_notebuf[i] / 128.0f;
+        return m_notebuf[i] / 127.0f;
     else
         return 0.0f;
 }
