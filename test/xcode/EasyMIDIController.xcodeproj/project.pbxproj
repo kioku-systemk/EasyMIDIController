@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		778BCA97164FE35B00213B28 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 778BCA96164FE35B00213B28 /* Cocoa.framework */; };
+		778BCABE164FE3E500213B28 /* CoreWindow_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 778BCABB164FE3E500213B28 /* CoreWindow_mac.mm */; };
+		778BCAC1164FE3F500213B28 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 778BCAC0164FE3F500213B28 /* test.cpp */; };
+		778BCAC3164FE40800213B28 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 778BCAC2164FE40800213B28 /* OpenGL.framework */; };
+		778BCAC6164FE45B00213B28 /* EasyMIDIController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 778BCAC5164FE45B00213B28 /* EasyMIDIController.mm */; };
+		778BCAC8164FE47900213B28 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 778BCAC7164FE47900213B28 /* CoreMIDI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		778BCA92164FE35B00213B28 /* EasyMIDIController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyMIDIController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		778BCA96164FE35B00213B28 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		778BCA99164FE35B00213B28 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		778BCA9A164FE35B00213B28 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		778BCA9B164FE35B00213B28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		778BCA9E164FE35B00213B28 /* EasyMIDIController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyMIDIController-Info.plist"; sourceTree = "<group>"; };
+		778BCAA4164FE35B00213B28 /* EasyMIDIController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyMIDIController-Prefix.pch"; sourceTree = "<group>"; };
+		778BCAB9164FE3E500213B28 /* CoreWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreWindow.h; sourceTree = "<group>"; };
+		778BCABA164FE3E500213B28 /* CoreWindow_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreWindow_mac.h; sourceTree = "<group>"; };
+		778BCABB164FE3E500213B28 /* CoreWindow_mac.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CoreWindow_mac.mm; sourceTree = "<group>"; };
+		778BCAC0164FE3F500213B28 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = test.cpp; path = ../test.cpp; sourceTree = "<group>"; };
+		778BCAC2164FE40800213B28 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		778BCAC4164FE45B00213B28 /* EasyMIDIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EasyMIDIController.h; path = ../../EasyMIDIController.h; sourceTree = "<group>"; };
+		778BCAC5164FE45B00213B28 /* EasyMIDIController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = EasyMIDIController.mm; path = ../../EasyMIDIController.mm; sourceTree = "<group>"; };
+		778BCAC7164FE47900213B28 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		778BCA8F164FE35B00213B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778BCAC8164FE47900213B28 /* CoreMIDI.framework in Frameworks */,
+				778BCAC3164FE40800213B28 /* OpenGL.framework in Frameworks */,
+				778BCA97164FE35B00213B28 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		778BCA87164FE35B00213B28 = {
+			isa = PBXGroup;
+			children = (
+				778BCAC7164FE47900213B28 /* CoreMIDI.framework */,
+				778BCAC2164FE40800213B28 /* OpenGL.framework */,
+				778BCAC0164FE3F500213B28 /* test.cpp */,
+				778BCAC4164FE45B00213B28 /* EasyMIDIController.h */,
+				778BCAC5164FE45B00213B28 /* EasyMIDIController.mm */,
+				778BCAB8164FE3E500213B28 /* Core */,
+				778BCA9C164FE35B00213B28 /* EasyMIDIController */,
+				778BCA95164FE35B00213B28 /* Frameworks */,
+				778BCA93164FE35B00213B28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		778BCA93164FE35B00213B28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				778BCA92164FE35B00213B28 /* EasyMIDIController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		778BCA95164FE35B00213B28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				778BCA96164FE35B00213B28 /* Cocoa.framework */,
+				778BCA98164FE35B00213B28 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		778BCA98164FE35B00213B28 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				778BCA99164FE35B00213B28 /* AppKit.framework */,
+				778BCA9A164FE35B00213B28 /* CoreData.framework */,
+				778BCA9B164FE35B00213B28 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		778BCA9C164FE35B00213B28 /* EasyMIDIController */ = {
+			isa = PBXGroup;
+			children = (
+				778BCA9D164FE35B00213B28 /* Supporting Files */,
+			);
+			path = EasyMIDIController;
+			sourceTree = "<group>";
+		};
+		778BCA9D164FE35B00213B28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				778BCA9E164FE35B00213B28 /* EasyMIDIController-Info.plist */,
+				778BCAA4164FE35B00213B28 /* EasyMIDIController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		778BCAB8164FE3E500213B28 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				778BCAB9164FE3E500213B28 /* CoreWindow.h */,
+				778BCABA164FE3E500213B28 /* CoreWindow_mac.h */,
+				778BCABB164FE3E500213B28 /* CoreWindow_mac.mm */,
+			);
+			name = Core;
+			path = ../Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		778BCA91164FE35B00213B28 /* EasyMIDIController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 778BCAB0164FE35B00213B28 /* Build configuration list for PBXNativeTarget "EasyMIDIController" */;
+			buildPhases = (
+				778BCA8E164FE35B00213B28 /* Sources */,
+				778BCA8F164FE35B00213B28 /* Frameworks */,
+				778BCA90164FE35B00213B28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyMIDIController;
+			productName = EasyMIDIController;
+			productReference = 778BCA92164FE35B00213B28 /* EasyMIDIController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		778BCA89164FE35B00213B28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = kioku;
+			};
+			buildConfigurationList = 778BCA8C164FE35B00213B28 /* Build configuration list for PBXProject "EasyMIDIController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 778BCA87164FE35B00213B28;
+			productRefGroup = 778BCA93164FE35B00213B28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				778BCA91164FE35B00213B28 /* EasyMIDIController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		778BCA90164FE35B00213B28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		778BCA8E164FE35B00213B28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778BCABE164FE3E500213B28 /* CoreWindow_mac.mm in Sources */,
+				778BCAC1164FE3F500213B28 /* test.cpp in Sources */,
+				778BCAC6164FE45B00213B28 /* EasyMIDIController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		778BCAAE164FE35B00213B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		778BCAAF164FE35B00213B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		778BCAB1164FE35B00213B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyMIDIController-Prefix.pch";
+				INFOPLIST_FILE = "EasyMIDIController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		778BCAB2164FE35B00213B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyMIDIController-Prefix.pch";
+				INFOPLIST_FILE = "EasyMIDIController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		778BCA8C164FE35B00213B28 /* Build configuration list for PBXProject "EasyMIDIController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778BCAAE164FE35B00213B28 /* Debug */,
+				778BCAAF164FE35B00213B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		778BCAB0164FE35B00213B28 /* Build configuration list for PBXNativeTarget "EasyMIDIController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778BCAB1164FE35B00213B28 /* Debug */,
+				778BCAB2164FE35B00213B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 778BCA89164FE35B00213B28 /* Project object */;
+}
