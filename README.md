@@ -14,7 +14,7 @@ Usage:
    
    midi->GetControlParam(i);
    
-   m_midi->GetNoteParam(i);
+   midi->GetNoteParam(i);
    
    ~~
    
