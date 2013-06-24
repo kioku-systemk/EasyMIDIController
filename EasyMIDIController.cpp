@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 
-void CALLBACK midiInProc(HMIDIIN hMidiIn, UINT wMsg, DWORD dwInstance, DWORD dwParam1, DWORD dwParam2)
+void CALLBACK midiInProc(HMIDIIN hMidiIn, UINT wMsg, DWORD_PTR dwInstance, DWORD_PTR dwParam1, DWORD_PTR dwParam2)
 {
 	EasyMIDIController* thisptr = reinterpret_cast<EasyMIDIController*>(dwInstance);
 	if (wMsg == MIM_DATA)
@@ -35,8 +35,8 @@ bool EasyMIDIController::openMIDI()
 	if (devnum > MAX_MIDI_NUM)
 		devnum = MAX_MIDI_NUM;
 
-	for (int i = 0; i < devnum; ++i) { 
-		nStatus = midiInOpen(&hMidiIn[i],0,(DWORD)midiInProc, reinterpret_cast<DWORD_PTR>(this), CALLBACK_FUNCTION);
+	for (int i = 0; i < devnum; ++i) {
+		nStatus = midiInOpen(&hMidiIn[i],0,(DWORD_PTR)midiInProc, reinterpret_cast<DWORD_PTR>(this), CALLBACK_FUNCTION);
 		if (nStatus != MMSYSERR_NOERROR){
 			hMidiIn[i] = 0;
 			continue;
